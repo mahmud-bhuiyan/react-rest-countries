@@ -1,6 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Components_2/Header/Header";
 import Countries from "./Components_2/Countries/Countries";
+import Footer from "./Components_2/Footer/Footer";
 // import { useEffect, useState } from "react";
 
 // import Countries from "./components/Countries/Countries";
@@ -10,7 +12,9 @@ import Countries from "./Components_2/Countries/Countries";
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
       {/* --------------2--------------- */}
       {/* <Header></Header>
       <Countries></Countries>
